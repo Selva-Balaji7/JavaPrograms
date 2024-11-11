@@ -3,6 +3,7 @@ class Amstrong
 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the Number:");
         int num=sc.nextInt();
         String str=String.valueOf(num);
         int len=str.length();
